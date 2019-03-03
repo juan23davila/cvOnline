@@ -1,5 +1,9 @@
 $(document).ready(function(){
-    $("#content").load("views/soy.html");
+    $("#content").load("views/inicio.html");
+
+    $("#inicio").click(function(){
+        $("#content").load("views/inicio.html");
+    });
 
     $("#soybutton").click(function(){
         $("#content").load("views/soy.html");
@@ -17,7 +21,7 @@ $(document).ready(function(){
         $("#content").load("views/portafolio.html");
     });
 
-    $("#porContac").click(function(){
+    $("#contButton").click(function(){
         $("#content").load("views/contact.html");
     });
 });

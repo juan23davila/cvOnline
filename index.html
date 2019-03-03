@@ -14,23 +14,55 @@
 </head>
 
 <body>
-    <header>
-        <h1>Juan David Dávila Mejía</h1>
-        <h2>Ingeniero de Sistemas y Computación</h2>
-    </header>
-    <ul>
-        <li><button id="soybutton">¿Quien soy?</button></li>
-        <li><button id="forbutton">Formación</button></li>
-        <li><button id="expbutton">Experiencia</button></li>
-        <li><button id="porbutton">Portafolio</button></li>
-        <li><button id="porContac">Contacto</button></li>
-    </ul>
+    <header class="container">
+        <div class="row">
+            <div class="col-5">Logo</div>
+            <div class="btn-group btn-group-toggle col-7" data-toggle="buttons">
+                <label class="btn btn-secondary active" id="inicio">
+                    <input type="radio" name="options" autocomplete="off" checked> Inicio
+                </label>
+                <label class="btn btn-secondary" id="soybutton">
+                    <input type="radio" name="options" autocomplete="off"> ¿Quien soy?
+                </label>
+                <label class="btn btn-secondary" id="forbutton">
+                    <input type="radio" name="options" autocomplete="off"> Formación
+                </label>
+                <label class="btn btn-secondary" id="expbutton">
+                    <input type="radio" name="options" autocomplete="off"> Experiencia
+                </label>
+                <label class="btn btn-secondary" id="porbutton">
+                    <input type="radio" name="options" autocomplete="off"> Portafolio
+                </label>
+                <label class="btn btn-secondary" id="contButton">
+                    <input type="radio" name="options" autocomplete="off"> Contacto
+                </label>
+            </div>
+            <!--<div class="col-1">
+                <button id="inicio" class="btn btn-primary btn-sm">Inicio</button>
+            </div>
+            <div class="col-1">
+                <button id="soybutton" class="btn btn-primary btn-sm">¿Quien soy?</button>
+            </div>
+            <div class="col-1">
+                <button id="forbutton">Formación</button>
+            </div>
+            <div class="col-1">
+                <button id="expbutton">Experiencia</button>
+            </div>
+            <div class="col-1">
+                <button id="porbutton">Portafolio</button>
+            </div>
+            <div class="col-1">
+                <button id="contButton">Contacto</button>
+            </div> -->
+            </div>
+      </header>
 
-    <div id="content">
+    <div id="content" class="container">
         <!--Aquí es donde se carga el contenido-->
     </div>
 
-    <footer>
+    <footer class="container">
         Todos los derechos Reservados - Copyright © - @juanDavidDavila
     </footer>
 
