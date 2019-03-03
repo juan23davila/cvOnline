@@ -5,6 +5,10 @@ $(document).ready(function(){
         $("#content").load("views/soy.html");
     });
 
+    $("#forbutton").click(function(){
+        $("#content").load("views/formacion.html");
+    });
+
     $("#expbutton").click(function(){
         $("#content").load("views/experiencia.html");
     });
