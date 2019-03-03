@@ -16,4 +16,8 @@ $(document).ready(function(){
     $("#porbutton").click(function(){
         $("#content").load("views/portafolio.html");
     });
+
+    $("#porContac").click(function(){
+        $("#content").load("views/contact.html");
+    });
 });
