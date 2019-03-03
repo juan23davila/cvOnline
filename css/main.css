@@ -1,3 +1,13 @@
+body{
+    background-color: lightgrey;
+    margin: auto;
+    width: 95%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
 #content{
     border: 2px solid black;
 }
