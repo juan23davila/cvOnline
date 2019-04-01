@@ -39,3 +39,8 @@ hr {
 #icoLogo{
     margin-right: 5%;
 }
+
+#container{
+    background-color: white;
+    padding: 1% 0%;
+}
