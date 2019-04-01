@@ -24,4 +24,19 @@ $(document).ready(function(){
     $("#contButton").click(function(){
         $("#content").load("views/contact.html");
     });
+
+    mostrarFooter();
 });
+
+
+/**
+ * Muestra el contenido del footer
+ */
+function mostrarFooter(){
+//Se obtiene año actual
+    let fecha = new Date();
+    let anio = fecha.getFullYear();
+
+    let footer = document.getElementById("footer");
+    footer.textContent = "Todos los derechos Reservados - Copyright © "+anio+" - @juan23davila";
+}

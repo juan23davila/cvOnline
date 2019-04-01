@@ -1,8 +1,41 @@
+/**
+    Fuentes:
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Pacifico', cursive;
+*/
 body{
     background-color: lightgrey;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .col-1{
     background-color: brown;
     border: 1px solid black;
+}
+
+#logo{
+    display:flex;
+    flex-direction: row;
+    font-size: 3em;
+    margin-top: 1%;
+}
+
+#nombLog h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 0.5em;
+}
+
+#nombLog h3{
+    font-size: 0.3em;
+}
+
+hr {
+    height: 1px;
+    background-color:black;
+    margin: auto;
+  }
+
+#icoLogo{
+    margin-right: 5%;
 }
